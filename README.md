@@ -1,14 +1,21 @@
--->Email Sending using Python (SMTP) to multiple Receivers
+-->Email Sending using Python (SMTP)
 
 ->Project Description
 
-This project demonstrates how to send emails using Python's built-in `smtplib` library to multiple receivers. It connects to Gmail SMTP server, authenticates using an app password, and sends a simple email message.
+This project demonstrates how to send emails using Python's built-in `smtplib` library.
+It connects to Gmail SMTP server, authenticates using an app password, and sends a simple email message.
 
 ->Features
+
 - Send email using Python
 - Secure connection using TLS
 - Simple and beginner-friendly code
-- list to stores the multiple receivers
+
+Replace credentials in code:
+
+   `sender_email`
+    `receiver_email`
+   `app_password`
 
 ->Run the script:
 
